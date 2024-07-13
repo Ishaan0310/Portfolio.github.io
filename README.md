@@ -22,7 +22,7 @@ All projects and experiences included in this portfolio are the result of my own
 
 ## Live Demo
 
-- Click [here](https://shaq-portfolio.netlify.app/) to view the live demo.
+- Click [here](https://ishaan-portfolio.netlify.app/) to view the live demo.
 
 ## Getting Started
 

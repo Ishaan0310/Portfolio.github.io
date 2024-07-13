@@ -1,4 +1,6 @@
-import React from 'react';
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable react/prop-types */
+
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { services } from '../constants';
@@ -37,9 +39,9 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        I am Ishaan Pandey, a Computer Science student with expertise in full-stack development. 
-        My internship at EAIESB Software Solutions has equipped me with practical skills in both front-end and back-end domains. 
-        Additionally, my role as the Website Developer & Coordinator for the EIS Conference emphasized the importance of effective project management. 
+        I am Ishaan Pandey, a Computer Science student with expertise in full-stack development.
+        My internship at EAIESB Software Solutions has equipped me with practical skills in both front-end and back-end domains.
+        Additionally, my role as the Website Developer & Coordinator for the EIS Conference emphasized the importance of effective project management.
         My portfolio includes projects such as a No-Code/Low-Code Tool and a Google-Keep Clone, both highlighting my commitment to quality and practicality.
         With a firm technical foundation and a strong sense of responsibility, I am ready to contribute meaningfully to teams focused on delivering concrete results.
       </motion.p>

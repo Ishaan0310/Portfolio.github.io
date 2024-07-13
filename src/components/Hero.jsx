@@ -1,9 +1,7 @@
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
 import { styles } from '../styles';
-import { navLinks } from '../constants';
-import { shaq, bwmap, worldmap } from '../assets';
-//top part
+import { ishaan, bwmap, worldmap, linked, git } from '../assets';
+
 const Hero = () => {
   return (
     <>
@@ -37,7 +35,7 @@ const Hero = () => {
           <div>
             <h1
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
-              Hi, I'm{' '}
+              Hi, I am{' '}
               <span
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
@@ -46,9 +44,19 @@ const Hero = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-            Welcome to my Portfolio <br className="sm:block hidden" />
-              
+              Welcome to my Portfolio <br className="sm:block hidden" />
             </p>
+
+            <div className="mt-4 flex space-x-2">
+              <a href="https://www.linkedin.com/in/ishaan-pandey-/" target="_blank" rel="noopener noreferrer">
+
+                <button className="w-12 h-12 rounded-full bg-taupe hover:bg-battleGray"><img src={linked}></img></button>
+              </a>
+              <a href="https://github.com/Ishaan0310?tab=repositories" target="_blank" rel="noopener noreferrer">
+
+                <button className="w-12 h-12 rounded-full bg-taupe hover:bg-battleGray"><img src={git}></img></button>
+              </a>
+            </div>
           </div>
           <div
             className="w-screen flex flex-col items-start 
@@ -86,8 +94,8 @@ const Hero = () => {
             className="absolute bottom-0 ml-[50vw] 
             lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
             sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
-            src={shaq}
-            alt="shaquille"
+            src={ishaan}
+            alt="ishaan"
           />
         </div>
       </section>

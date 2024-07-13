@@ -6,7 +6,7 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 
 
-import shaq from './personal/shaq.png';
+import ishaan from './personal/ishaan.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -22,7 +22,7 @@ import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
-
+import keep from './projects/keep.png';
 import css from './tech/css.png';
 import docker from './tech/docker.png';
 import figma from './tech/figma.png';
@@ -37,14 +37,14 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
-
+import linked from './personal/linkedin.png';
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
+
+import E_insta from './projects/E_insta.png';
 import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
@@ -52,12 +52,13 @@ import space from './projects/space-hub.png';
 
 export {
   bwmap,
+  linked,
   nairobi,
   whiteabstract,
   worldmap,
   logo,
-  
-  shaq,
+  E_insta,
+  ishaan,
   backend,
   ux,
   frontend,
@@ -86,8 +87,7 @@ export {
   redux,
   tailwind,
   typescript,
-  komikult,
-  leaderboard,
+  keep,
   math,
   movie,
   nyeusi,
