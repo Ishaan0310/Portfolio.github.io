@@ -6,4 +6,7 @@ export default defineConfig({
   build: {
     outDir: 'dist', // Ensure this matches your deployment script
   },
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
 });
