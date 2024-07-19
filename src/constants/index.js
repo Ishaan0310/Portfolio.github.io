@@ -1,10 +1,8 @@
 import {
   frontend,
   backend,
-  ux,
-  
+  ux, 
   javascript,
-  
   html,
   css,
   reactjs,
@@ -13,7 +11,7 @@ import {
   figma,
   keep,
   E_insta,
-  
+  tasktrek,
   coverhunt,
   microverse,
 } from '../assets';
@@ -106,6 +104,13 @@ const experiences = [
     iconBg: '#333333',
     date: 'Feb 2023 - Jan 2024',
   },
+  {
+    title: 'Frontend Developer Intern',
+    company_name: 'Movidu',
+    icon: microverse,
+    iconBg: '#333333',
+    date: 'Feb 2024 - July 2024',
+  },
   
 ];
 
@@ -150,6 +155,26 @@ const projects = [
     ],
     image: E_insta,
     repo: 'https://github.com/Ishaan0310/Final-Project1',
+    
+  },
+  {
+    id: 'project-3',
+    name: 'TaskTrek',
+    description:
+      'Project Manager Web app',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'Fastapi',
+        color: 'green-text-gradient',
+      },
+      
+    ],
+    image: tasktrek,
+    repo: 'http://localhost:3000/',
     
   },
   
