@@ -15,7 +15,7 @@ import { textVariant } from '../utils/motion';
 // Upload your updated resume PDF to Google Drive, set sharing to "Anyone with
 // the link can view", then paste the share URL below.
 const RESUME_URL =
-  'https://drive.google.com/file/d/1D9_iHyPB76dyVtkEUObepxagLlJf1EJU/view?usp=sharing';
+  'https://drive.google.com/file/d/1-XhI-icVDRrhvtwVE2K0WDw_xSCfiI0M/view?usp=sharing';
 // ─────────────────────────────────────────────────────────────────────────────
 
 const ExperienceCard = ({ experience }) => (
