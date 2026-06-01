@@ -67,7 +67,7 @@ const experiences = [
     company_name: 'HCL Technologies',
     icon:         hcl,          
     iconBg:       '#FFFFFF', 
-    date:         'Dec 2025 – Present',
+    date:         'Sep 2024 – Present',
   },
 ];
 
