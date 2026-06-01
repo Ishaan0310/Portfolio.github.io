@@ -94,7 +94,7 @@ const projects = [
       { name: 'openpyxl', color: 'pink-text-gradient'  },
     ],
     image: space,   // TODO: replace with finance-tracker screenshot (see note above)
-    repo:  'https://github.com/Ishaan0310',  // TODO: update with your actual repo URL
+    repo:  'https://github.com/Ishaan0310/Expense_tracker',  // TODO: update with your actual repo URL
   },
   {
     id:          'project-2',
@@ -111,7 +111,7 @@ const projects = [
       { name: 'SQL',        color: 'pink-text-gradient'  },
     ],
     image: nyeusi,  // TODO: replace with skill-tracker screenshot (see note above)
-    repo:  'https://github.com/Ishaan0310',  // TODO: update with your actual repo URL
+    repo:  'https://github.com/Ishaan0310/Skill_demand',  // TODO: update with your actual repo URL
   },
 ];
 
