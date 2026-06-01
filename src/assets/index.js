@@ -76,8 +76,6 @@ export {
   graphql,
   html,
   postgresql,
-  reactjs,
-  redux,
   keep,
   math,
   movie,
