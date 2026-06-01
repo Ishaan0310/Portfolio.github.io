@@ -25,11 +25,6 @@ import figma from './tech/figma.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
-import nodejs from './tech/nodejs.png';
-import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
-import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import hcl from './company/hcl.png';
@@ -44,6 +39,9 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import python from './tech/python.png';
+import powerbi from './tech/powerbi.png';
+import excel from './tech/excel icon.png';
 
 export {
   bwmap,
@@ -56,6 +54,9 @@ export {
   hcl,
   ishaan,
   backend,
+  python,   // Add Python
+  powerbi,  // Add Power BI
+  excel,
   ux,
   frontend,
   prototyping,
@@ -74,20 +75,15 @@ export {
   git,
   graphql,
   html,
-  javascript,
-  nodejs,
   postgresql,
   reactjs,
   redux,
-  tailwind,
-  typescript,
   keep,
   math,
   movie,
   nyeusi,
   space,
   coverhunt,
-  dcc,
   tasktrek,
   kelhel,
   tasklogo,
