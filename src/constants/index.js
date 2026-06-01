@@ -5,8 +5,9 @@ import {
   prototyping,
   javascript,
   postgresql,
-  reactjs,
-  nodejs,
+  python,
+  powerbi,
+  excel,
   hcl,
   git,
   space,
@@ -32,11 +33,12 @@ const services = [
 
 // ── Technologies (3D spinning balls) ─────────────────────────────────────────
 const technologies = [
+  { name: 'Python',      icon: python     },
   { name: 'PostgreSQL',  icon: postgresql },
-  { name: 'JavaScript',  icon: javascript },
-  { name: 'React JS',    icon: reactjs    },
-  { name: 'Node JS',     icon: nodejs     },
+  { name: 'Power BI',    icon: powerbi    },
+  { name: 'Excel',       icon: excel      },
   { name: 'Git',         icon: git        },
+  { name: 'HTML',        icon: html       },
 ];
 
 // ── Experience (Timeline ordered early to latest) ───────────────────────────
