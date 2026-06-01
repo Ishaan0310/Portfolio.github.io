@@ -41,7 +41,7 @@ import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 import python from './tech/python.png';
 import powerbi from './tech/powerbi.png';
-import excel from './tech/excel icon.png';
+import excel from './tech/excel.png';
 
 export {
   bwmap,
