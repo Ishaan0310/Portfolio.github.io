@@ -53,6 +53,7 @@ export {
   worldmap,
   logo,
   E_insta,
+  hcl,
   ishaan,
   backend,
   ux,
