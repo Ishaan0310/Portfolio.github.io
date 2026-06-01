@@ -4,7 +4,6 @@ import {
   ux,
   html,
   prototyping,
-  javascript,
   postgresql,
   python,
   powerbi,
