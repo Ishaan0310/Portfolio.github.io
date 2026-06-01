@@ -32,6 +32,7 @@ import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
+import hcl from './company/hcl.png';
 import linked from './personal/linkedin.png';
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
