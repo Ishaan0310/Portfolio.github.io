@@ -24,13 +24,13 @@ import css from './tech/css.png';
 import figma from './tech/figma.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
-import javascript from './tech/javascript.png';
+
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import hcl from './company/hcl.png';
 import linked from './personal/linkedin.png';
 import coverhunt from './company/coverhunt.png';
-import dcc from './company/dcc.png';
+
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 import tasktrek from './projects/TaskTrek.png';
