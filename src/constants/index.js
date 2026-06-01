@@ -7,6 +7,7 @@ import {
   postgresql,
   reactjs,
   nodejs,
+  hcl,
   git,
   space,
   nyeusi,
