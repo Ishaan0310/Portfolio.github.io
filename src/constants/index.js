@@ -45,20 +45,7 @@ const technologies = [
 // ── Experience (timeline on the Work section) ─────────────────────────────────
 // HCL logo: drop src/assets/company/hcl.png and swap `dcc` below for `hcl`
 const experiences = [
-  {
-    title:        'Technical Analyst – Infrastructure Analytics',
-    company_name: 'HCL Technologies',
-    icon:         dcc,          // placeholder — replace with hcl.png (see note above)
-    iconBg:       '#005DAA',
-    date:         'Sep 2024 – Present',
-  },
-  {
-    title:        'Frontend Developer & Data Integration Intern',
-    company_name: 'Movidu Technologies',
-    icon:         microverse,
-    iconBg:       '#333333',
-    date:         'Feb 2024 – Jul 2024',
-  },
+  
   {
     title:        'Full-Stack Intern',
     company_name: 'EAIESB Software Solutions',
@@ -72,6 +59,20 @@ const experiences = [
     icon:         microverse,
     iconBg:       '#333333',
     date:         'Feb 2023 – Jan 2024',
+  },
+  {
+    title:        'Frontend Developer & Data Integration Intern',
+    company_name: 'Movidu Technologies',
+    icon:         microverse,
+    iconBg:       '#333333',
+    date:         'Feb 2024 – Jul 2024',
+  },
+  {
+    title:        'Technical Analyst – Infrastructure Analytics',
+    company_name: 'HCL Technologies',
+    icon:         hcl,          
+    iconBg:       '#005DAA',
+    date:         'Sep 2024 – Present',
   },
 ];
 
