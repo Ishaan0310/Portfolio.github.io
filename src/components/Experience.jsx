@@ -11,17 +11,22 @@ import { SectionWrapper } from '../hoc';
 import { download, downloadHover, resume } from '../assets';
 import { textVariant } from '../utils/motion';
 
+// ── RESUME LINK ───────────────────────────────────────────────────────────────
+// Upload your updated resume PDF to Google Drive, set sharing to "Anyone with
+// the link can view", then paste the share URL below.
+const RESUME_URL =
+  'https://drive.google.com/file/d/1D9_iHyPB76dyVtkEUObepxagLlJf1EJU/view?usp=sharing';
+// ─────────────────────────────────────────────────────────────────────────────
+
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
     contentStyle={{
       background: '#eaeaec',
       color: '#292929',
       boxShadow:
-        'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px',
+        'rgba(0,0,0,0.1) 0px 10px 15px -3px, rgba(0,0,0,0.05) 0px 4px 6px -2px',
     }}
-    contentArrowStyle={{
-      borderRight: '7px solid  #232631',
-    }}
+    contentArrowStyle={{ borderRight: '7px solid #232631' }}
     date={
       <div>
         <h3 className="text-dim text-[18px] font-bold font-beckman">
@@ -48,45 +53,38 @@ const ExperienceCard = ({ experience }) => (
         style={{ margin: 0 }}>
         {experience.company_name}
       </p>
+
+      {/* "MY PAPER" button only on the JETIR entry */}
       {experience.title === 'Unleashing the Power of PWA' && (
         <button
-          className="live-demo flex justify-between 
-          sm:text-[18px] text-[14px] text-timberWolf 
-          font-bold font-beckman items-center py-5 pl-3 pr-3 
-          whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] 
-          w-[125px] h-[46px] rounded-[10px] bg-jetLight 
-          sm:mt-[22px] mt-[16px] hover:bg-battleGray 
-          hover:text-eerieBlack transition duration-[0.2s] 
-          ease-in-out"
+          className="live-demo flex justify-between sm:text-[18px] text-[14px]
+            text-timberWolf font-bold font-beckman items-center py-5 pl-3 pr-3
+            whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] w-[125px] h-[46px]
+            rounded-[10px] bg-jetLight sm:mt-[22px] mt-[16px] hover:bg-battleGray
+            hover:text-eerieBlack transition duration-[0.2s] ease-in-out"
           onClick={() =>
             window.open(
-              'https://drive.google.com/file/d/1u2RddQkGghv4g2lYAyJn2NtMaAE_SZKL/view?usp=sharing', // My PAper
-              '_blank'
+              'https://drive.google.com/file/d/1u2RddQkGghv4g2lYAyJn2NtMaAE_SZKL/view?usp=sharing',
+              '_blank',
             )
           }
           onMouseOver={() => {
-            document
-              .querySelector('.download-btn')
-              .setAttribute('src', downloadHover);
+            document.querySelector('.paper-download-btn')?.setAttribute('src', downloadHover);
           }}
           onMouseOut={() => {
-            document
-              .querySelector('.download-btn')
-              .setAttribute('src', download);
+            document.querySelector('.paper-download-btn')?.setAttribute('src', download);
           }}>
           MY PAPER
           <img
             src={download}
-            alt="download"
-            className="download-btn sm:w-[26px] sm:h-[26px] 
-            w-[23px] h-[23px] object-contain"
+            alt="download paper"
+            className="paper-download-btn sm:w-[26px] sm:h-[26px] w-[23px] h-[23px] object-contain"
           />
         </button>
       )}
     </div>
   </VerticalTimelineElement>
 );
-
 
 const Experience = () => {
   return (
@@ -105,19 +103,19 @@ const Experience = () => {
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
           ))}
+
+          {/* Resume download card — always last */}
           <VerticalTimelineElement
             contentStyle={{
               background: '#eaeaec',
               color: '#292929',
               boxShadow:
-                'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px',
+                'rgba(0,0,0,0.1) 0px 10px 15px -3px, rgba(0,0,0,0.05) 0px 4px 6px -2px',
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
             }}
-            contentArrowStyle={{
-              borderRight: '7px solid  #232631',
-            }}
+            contentArrowStyle={{ borderRight: '7px solid #232631' }}
             iconStyle={{ background: '#333333' }}
             icon={
               <div className="flex justify-center items-center w-full h-full">
@@ -129,36 +127,23 @@ const Experience = () => {
               </div>
             }>
             <button
-              className="live-demo flex justify-between 
-              sm:text-[18px] text-[14px] text-timberWolf 
-              font-bold font-beckman items-center py-5 pl-3 pr-3 
-              whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] 
-              w-[125px] h-[46px] rounded-[10px] bg-jetLight 
-              sm:mt-[22px] mt-[16px] hover:bg-battleGray 
-              hover:text-eerieBlack transition duration-[0.2s] 
-              ease-in-out"
-              onClick={() =>
-                window.open(
-                  'https://drive.google.com/file/d/1zngwjBHgmb5Ut1oEtM4YsgfKTjwLV8kx/view?usp=sharing', //pasted the link to my resume here
-                  '_blank'
-                )
-              }
+              className="live-demo flex justify-between sm:text-[18px] text-[14px]
+                text-timberWolf font-bold font-beckman items-center py-5 pl-3 pr-3
+                whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] w-[125px] h-[46px]
+                rounded-[10px] bg-jetLight sm:mt-[22px] mt-[16px] hover:bg-battleGray
+                hover:text-eerieBlack transition duration-[0.2s] ease-in-out"
+              onClick={() => window.open(RESUME_URL, '_blank')}
               onMouseOver={() => {
-                document
-                  .querySelector('.download-btn')
-                  .setAttribute('src', downloadHover);
+                document.querySelector('.resume-download-btn')?.setAttribute('src', downloadHover);
               }}
               onMouseOut={() => {
-                document
-                  .querySelector('.download-btn')
-                  .setAttribute('src', download);
+                document.querySelector('.resume-download-btn')?.setAttribute('src', download);
               }}>
               MY RESUME
               <img
                 src={download}
-                alt="download"
-                className="download-btn sm:w-[26px] sm:h-[26px] 
-                w-[23px] h-[23px] object-contain"
+                alt="download resume"
+                className="resume-download-btn sm:w-[26px] sm:h-[26px] w-[23px] h-[23px] object-contain"
               />
             </button>
           </VerticalTimelineElement>
