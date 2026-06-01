@@ -87,7 +87,7 @@ const projects = [
       { name: 'openpyxl', color: 'pink-text-gradient'  },
     ],
     image: space,   
-    source_code_link: 'https://github.com/Ishaan0310/Expense_tracker', 
+    repo: 'https://github.com/Ishaan0310/Expense_tracker', 
   },
   {
     id:          'project-2',
@@ -104,7 +104,7 @@ const projects = [
       { name: 'SQL',        color: 'pink-text-gradient'  },
     ],
     image: nyeusi,  
-    source_code_link: 'https://github.com/Ishaan0310/Skill_demand', 
+    repo: 'https://github.com/Ishaan0310/Skill_demand', 
   },
 ];
 
